@@ -1,0 +1,289 @@
+nav {
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:first-child {
+  margin-right: auto;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.banner img {
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.content span {
+  border-bottom: 2px solid red;
+}
+
+.content_card section img {
+  width: 33.333%;
+}
+
+.content_card {
+  display: flex;
+  padding-top: 20px;
+  /* margin: 30px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.content_card section {
+  width: 30%;
+}
+
+.introduce {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.teacher_introduce {
+  width: 750px;
+}
+
+.teacher_introduce span {
+  border-bottom: 2px solid red;
+}
+
+.teacher {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teacher span {
+  border-bottom: 2px solid red;
+}
+
+.teacher_card {
+  width: 500px;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.teacher_card_head {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.teacher_card img {
+  height: 150px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+
+.teacher_card_head_intro {
+  padding-left: 20px;
+}
+
+.teacher_card_head_icon i {
+  padding: 5px;
+}
+
+.teacher_card_body_intro {
+  padding-top: 10px;
+}
+
+.more_tutorial a {
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.news h3 {
+  text-align: center;
+}
+
+.news a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.news_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news_content_link {
+  width: 500px;
+}
+
+.short_tutorial {
+  display: flex;
+  background-color: rgb(146, 142, 204);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.short_tutorial_another {
+  background-color: rgb(207, 52, 78);
+}
+
+.short_tutorial span {
+  border-bottom: 2px solid red;
+}
+
+.another_tutorial {
+  background-color: rgb(88, 88, 185);
+}
+
+.another_tutorial_box {
+  display: flex;
+  justify-content: center;
+}
+.another_tutorial_content_more {
+  margin-top: 80px;
+}
+
+.recent_tutorial {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent_class {
+  margin-left: 47px;
+}
+
+.recent_tutorial_card {
+  border: 1px solid black;
+  width: 33.333%;
+}
+
+.recent_tutorial_card img {
+  width: 398px;
+  border-bottom: 1px solid black;
+}
+
+.recent section a {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.learning_path_content_card {
+  display: flex;
+}
+
+.learning_path_content_card_box {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.learning_path_content_card_box a {
+  text-decoration: none;
+}
+
+.learning_path_content_card_box_pic {
+  border-bottom: 1px solid black;
+}
+
+.center_p {
+  text-align: center;
+}
+
+.recommend_content {
+  text-align: center;
+}
+
+.recommend_content_student img {
+  border-radius: 50%;
+}
+
+.recommend_content_card {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.recommend_content_card_student {
+  width: 250px;
+}
+
+.inline_p {
+  display: inline;
+}
+
+.recommend_article_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h3_center {
+  text-align: center;
+}
+
+.h3_center a {
+  text-decoration: none;
+}
+
+.recommend_article_content a {
+  display: block;
+}
+
+.recommend_article_content_card img {
+  width: 350px;
+}
+
+body {
+  width: 1200px;
+}
+
+.contact {
+  display: flex;
+  background-color: rgb(146, 142, 204);
+}
+
+.contact a {
+  display: block;
+}
+
+.contact_more {
+  width: 400px;
+}
+
+.contact_more_info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact_more_info_card {
+  width: 250px;
+}
+
+.contact_icon {
+  text-align: center;
+  background-color: rgb(146, 142, 204);
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(76, 50, 218);
+}
