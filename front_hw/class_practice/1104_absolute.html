@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .box{
+      width: 300px;
+      border: 4px solid red;
+      position: relative;
+      overflow: hidden;
+    }
+
+      .box img{
+        display: block;;
+      }
+
+      .box .mask{
+        width: 100%;
+        height:100%;
+        font-size: 22px;
+        color: brown;
+        opacity: 0%;
+        background-color: black;
+        position: absolute;
+        top: 0%;
+        left:0%;
+        transition: 1s;
+      }
+
+      .box:hover .mask{
+        opacity: 100%;
+        top:0;
+      }
+  </style>
+</head>
+<body>
+
+<div class ="box">
+<img src="https://picsum.photos/300/800/?random=1">
+  <div class ="mask">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, delectus praesentium. Qui sequi praesentium sunt aut? Molestiae voluptas reiciendis placeat quisquam nihil odit? Quae ullam dolores praesentium a distinctio modi.</div>
+</div>
+
+</body>
+</html>

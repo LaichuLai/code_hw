@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<style>
+
+
+
+div{
+  display: flex;
+}
+
+p {
+  align-items: center;
+  flex-direction: column;
+}
+
+p::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: turquoise;
+}
+
+p:hover::after{
+  transition: 0.5s;
+  width: 100%;
+}
+
+
+</style>
+
+<div>
+  <p>Lorem ipsum</p>
+  <p>Lorem ipsum</p>
+  <p>Lorem ipsum</p>
+</div>
+
+<!-- <img src="https://picsum.photos/200/200/?random=1">
+<img src="https://picsum.photos/200/200/?random=1"><img src="https://picsum.photos/200/200/?random=1"> -->
+
+</body>
+</html>
