@@ -11,27 +11,28 @@
 
   <style>
     
-    .wrap, .wrap1 {
+    .wrap{
       width: 960px;
       display: flex;
       flex-wrap: wrap;
      
     }
 
-    .high{
+    .wrap .slogan{
       width: 400px;
-      background-color: red;
+      background-color:red;
       color: white;
       font-size: 30px;
-    } 
+    }
 
-    .wrap1 .item:first-child{
+    .slogan__content{
       width: 400px;
       background-color:black;
       color: white;
       font-size: 30px;
-      position: relative;
     }
+
+
 
     .item:nth-child(2){
       width: 800px;
@@ -58,16 +59,15 @@
 
 
   <div class = "wrap">
-    <div class = "high">
-      <h1 class = "feat">01</h1>
-      <h2 class = "feat">操控樂趣</h2>
-    </div>
-  </div>
-
-  <div class = "wrap1">
     <div class = "item">
-      <h3 class = "slogan">人人滿意的駕駛體驗</h3>
-      <p class = "slogan">和諧充分剛剛模樣繼續多次引發，世界很少發出很難中港路熱門，標誌百度相關內容百姓哪些接着，兩個萬元財產市場現在。</p>
+      <div class = "slogan">
+        <h1 class = "feat">01</h1>
+        <h2 class = "feat">操控樂趣</h2>
+      </div>
+      <div class = "slogan__content">
+        <h3 class = "content">人人滿意的駕駛體驗</h3>
+        <p class = "content">和諧充分剛剛模樣繼續多次引發，世界很少發出很難中港路熱門，標誌百度相關內容百姓哪些接着，兩個萬元財產市場現在。</p>
+      </div>
     </div>
 
     <div class = "item">
