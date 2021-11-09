@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css_reset.css">
+</head>
+<body>
+
+  <style>
+    
+    .wrap{
+      margin: 0 auto;
+      width: 960px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .item:first-child{
+      position: relative;
+      margin-top: 80px;
+      top: 250px;
+      left: -400px;
+      z-index: 1;
+    }
+
+    .wrap .slogan{
+      width: 350px;
+      height: 70px;
+      background-color:rgb(211, 5, 5);
+      color: white;
+      font-size: 30px;
+      display: flex;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    h1.feat {
+      font-size: 120px;
+      transform: rotate(90deg);
+      margin-bottom: -10px;
+      margin-top: -10px;
+      line-height: -8px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h2.feat {
+      font-size: 45px;
+      display: inline-flex;
+      padding-top: 20px;
+      letter-spacing: 7px;
+      margin-left: -10px;
+
+    }
+
+    .slogan__content{
+      width: 300px;
+      height: 200px;
+      background-color:black;
+      color: white;
+      display: block;
+      padding: 25px;
+    }
+    
+    h3.content{
+      font-size: 25px;
+      display: block;
+      margin-bottom: 10px;
+
+    }
+
+    p.content{
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 35px;
+
+      
+    }
+
+    .item:nth-child(2) {
+      width: 800px;
+      height: 450px;
+      display: block;
+    }
+
+    .item:nth-child(3){
+      width: 760px;
+      padding: 20px;
+      background-color: #eee;
+      color #999;
+      font-size: 18px;
+      line-height: 25px;
+      display: block;
+      position: relative;
+      z-index: 2;
+      top: -80px;
+      right: 120px;
+    }
+
+    h2.points {
+      color:rgb(163, 14, 14);
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    h2.points::after {
+      content: " ";
+      display: inline-block;
+      color: rgb(163, 14, 14);
+      width: 300px;
+      height: 2px;
+      background-color: rgb(163, 14, 14);
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .points .highlight {
+      max-width: 160px;
+      height: 40px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      font-size: 25px;
+      border-radius: 3%;
+      box-shadow: gray;
+    }
+
+    .points p {
+      display: flex;
+
+    }
+
+    .points p::before {
+      content: "●";
+      color: rgb(163, 14, 14);
+      padding-left: 2em;
+      text-indent: -35px;
+
+    }
+
+
+    image.item#altis{
+      display: block;
+      position: relative;
+      z-index: 0;
+    }
+
+    .youtube{
+      width: 80px;
+      height: 40px;
+      position: relative;
+      top: -230px;
+      left: 0px;
+    }
+
+
+  </style>
+
+
+  <div class = "wrap">
+    <div class = "item">
+      <div class = "slogan">
+        <h1 class = "feat">01</h1>
+        <h2 class = "feat">操控樂趣</h2>
+      </div>
+      <div class = "slogan__content">
+        <h3 class = "content">人人滿意的駕駛體驗</h3>
+        <p class = "content">和諧充分剛剛模樣繼續多次引發，世界很少發出很難中港路熱門，標誌百度相關關內關內關內內關關內關內度相關內內容百姓哪些接着。</p>
+      </div>
+    </div>
+
+    <div class = "item">
+      <img class= "car" id= "altis" src="https://picsum.photos/800/450/?random=1">
+    </div>
+
+    <div class = "item">
+      <h2 class = "points">因為我們做了這些革新</h2>
+      <div class = "points">
+        <div class="highlight">
+          <h3>低重心設計</h3>
+        </div>
+        <p>眼神裝備，是以明星專用公斤專業房間恐怖標題文件，行為鮮花</p>
+      </div>
+      <div class = "points">
+        <div class="highlight">
+          <h3>車體剛性強化</h3>
+        </div>
+        <p>神秘貼布，均為破解具體，上了陷入銀行就好詳細訊息付出立即，施工原創保育石虎批評，東京放在眾人要有兩位統計幽默也就足夠當然</p>
+      </div>
+      <div class = "points">
+        <div class="highlight">
+          <h3>四輪獨立懸吊</h3>
+        </div>
+        <p>此處軍事競爭適用於顯卡不說部分金屬圍繞默認遵守二人是否，是一種本來你有收藏本頁，轎車人口精采輕易上下眾多樹林什麼是，貼布我去讀書，新</p>
+      </div>
+    </div>
+    
+
+    <div class = "youtube">
+      <a href="https://www.toyota.com.tw/tech_TNGA.aspx#/advantages">
+        <img src="youtube_icon.png" width="80" alt="youtube">
+      </a>
+    </div>
+   
+  </div>
+</body>
+</html>

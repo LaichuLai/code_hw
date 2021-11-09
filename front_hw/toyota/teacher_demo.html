@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.item{
+			padding: 20px 0;
+			border-bottom: 1px solid #000;
+		}
+		.group{
+			width: 960px;
+			margin: auto;
+		}
+		.title-group{
+			width: 320px;
+			background-color: #f00;
+			color: #fff;
+			position: relative;
+		}
+		.group .item:nth-child(even) .title-group{
+			margin-left: auto;
+		}
+		.title-group h2{
+			font-size: 45px;
+		}
+		.title-group .txt{
+			background-color: #000;
+			padding: 15px;
+			position: absolute;
+		}
+		.pic-group{
+			width: 70%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-left: 15%;
+		}
+		.group .item:nth-child(even) .pic-group{
+			margin-left: auto;
+			margin-right: 15%;
+			flex-direction: row-reverse;
+		}
+		.pic-group .cover{
+			width: 662px;
+			margin-right: -70px;
+		}
+		.group .item:nth-child(even) .pic-group .cover{
+			margin-right: 0px;
+			margin-left: -70px;	
+		}
+		.pic-group .cover img{
+			width: 100%;
+			vertical-align: top;
+		}
+		.pic-group .btn{
+			width: 80px;
+			height: 50px;
+			background-color: #f00;
+			font-size: 0;
+		}
+		.text-group{
+			background-color: #ccc;
+			width: 70%;
+			margin-left: 10%;
+			margin-top: -1em;
+			position: relative;
+			z-index: 3;
+		}
+		.group .item:nth-child(even) .text-group{
+			margin-left: auto;
+			margin-right: 10%;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="group">
+		<div class="item">
+			<div class="title-group">
+				<h2><span>01</span>操控樂趣</h2>
+				<div class="txt">
+					<h3>人人滿意的駕駛體驗</h3>
+					<p>加大東方版主遠遠成績蔬菜為何本地，這段房子您是以及身後判斷手上保留獎勵模式飛，日韓總經理作為微笑儘。</p>
+				</div>
+			</div>
+			<div class="pic-group">
+				<div class="cover">
+					<img src="https://picsum.photos/300/150?random=1" alt="圖片說明">
+				</div>
+				<div class="btn">
+					<a href="#">play</a>
+				</div>
+			</div>
+			<div class="text-group">
+				<div class="slg">因為我們做了這些革新</div>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="title-group">
+				<h2><span>01</span>操控樂趣</h2>
+				<div class="txt">
+					<h3>人人滿意的駕駛體驗</h3>
+					<p>加大東方版主遠遠成績蔬菜為何本地，這段房子您是以及身後判斷手上保留獎勵模式飛，日韓總經理作為微笑儘。</p>
+				</div>
+			</div>
+			<div class="pic-group">
+				<div class="cover">
+					<img src="https://picsum.photos/300/150?random=1" alt="圖片說明">
+				</div>
+				<div class="btn">
+					<a href="#">play</a>
+				</div>
+			</div>
+			<div class="text-group">
+				<div class="slg">因為我們做了這些革新</div>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="title-group">
+				<h2><span>01</span>操控樂趣</h2>
+				<div class="txt">
+					<h3>人人滿意的駕駛體驗</h3>
+					<p>加大東方版主遠遠成績蔬菜為何本地，這段房子您是以及身後判斷手上保留獎勵模式飛，日韓總經理作為微笑儘。</p>
+				</div>
+			</div>
+			<div class="pic-group">
+				<div class="cover">
+					<img src="https://picsum.photos/300/150?random=1" alt="圖片說明">
+				</div>
+				<div class="btn">
+					<a href="#">play</a>
+				</div>
+			</div>
+			<div class="text-group">
+				<div class="slg">因為我們做了這些革新</div>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="title-group">
+				<h2><span>01</span>操控樂趣</h2>
+				<div class="txt">
+					<h3>人人滿意的駕駛體驗</h3>
+					<p>加大東方版主遠遠成績蔬菜為何本地，這段房子您是以及身後判斷手上保留獎勵模式飛，日韓總經理作為微笑儘。</p>
+				</div>
+			</div>
+			<div class="pic-group">
+				<div class="cover">
+					<img src="https://picsum.photos/300/150?random=1" alt="圖片說明">
+				</div>
+				<div class="btn">
+					<a href="#">play</a>
+				</div>
+			</div>
+			<div class="text-group">
+				<div class="slg">因為我們做了這些革新</div>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="title-group">
+				<h2><span>01</span>操控樂趣</h2>
+				<div class="txt">
+					<h3>人人滿意的駕駛體驗</h3>
+					<p>加大東方版主遠遠成績蔬菜為何本地，這段房子您是以及身後判斷手上保留獎勵模式飛，日韓總經理作為微笑儘。</p>
+				</div>
+			</div>
+			<div class="pic-group">
+				<div class="cover">
+					<img src="https://picsum.photos/300/150?random=1" alt="圖片說明">
+				</div>
+				<div class="btn">
+					<a href="#">play</a>
+				</div>
+			</div>
+			<div class="text-group">
+				<div class="slg">因為我們做了這些革新</div>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+				<h3>低重心設計</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat?</p>
+			</div>
+		</div>
+	</div>
+	
+
+
+</body>
+</html>
