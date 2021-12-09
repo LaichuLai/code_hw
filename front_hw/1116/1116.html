@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .main-header{
+			background-color: #ccc;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;	
+		}
+
+
+    .container{
+       max-width: 1200px;
+      padding: 10px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+    @media screen and (min-width:1200px) {
+      .logo{
+        width: 100px;
+      }
+
+      .logo img{
+        width: 100%;
+        vertical-align: top;
+      }
+
+      .burger{
+        display: none;
+      }
+
+      .main-nav{
+      color: gray;
+      display: flex;
+      }
+      .main-nav a ~ a{
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+        border-bottom: 1px solid #000;
+      }
+
+
+      
+    }
+
+    @media screen and (max-width: 1199px) {
+
+
+      .logo{
+        width: 100px;
+      }
+
+      .logo img{
+        width: 100%;
+        vertical-align: top;
+      }
+
+      .burger{
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        position: relative;
+      }
+
+      .burger span{
+        width: 32px;
+        height: 4px;
+        background-color: yellow;
+        position: absolute;
+        left: 4px;
+        right: 4px;
+      }
+
+      .burger span.bar-1{
+        top: 7px;
+        transition: ;
+      }
+
+      .burger span.bar-2{
+        top: 18px;
+      }
+
+      .burger span.bar-3{
+        bottom: 7px;
+      }
+
+      #menu-checked:checked ~ .main-header .burger span .bar-1{
+        top: 18px;
+        transform:   rotate: (45deg);
+        transition: 0.5s 0s,
+                    0.5s 0s;
+      }
+
+      .main-nav{
+        /* display: none; */
+        position: absolute;
+        width: 80%;
+        height: calc(100vh - 65px);
+        background-color: #fa0;
+        top: 100%;
+        left: -80%;
+        transition: left 0.5s;
+      }
+      .main-nav a{
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+        border-bottom: 1px solid #000;
+      }
+
+      #menu-checked:checked ~ .main-header .main-nav{
+        display: block;
+        left: 0;
+  
+      }  
+    }
+  </style>
+
+</head>
+<body>
+  
+
+
+<input type="checkbox" id="menu-checked">
+  <header class="main-header">
+    <div class="container">
+      <!-- logo -->
+      <a href="#" class="logo">
+        <h1><img src="https://picsum.photos/200/80/?random=1"></h1>
+      </a>
+
+      <!-- 選單 -->
+      <nav class="main-nav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+
+      <!-- 漢堡 -->
+      <label for="menu-checked" class="burger">
+        <span class="bar-1"></span>
+        <span class="bar-2"></span>
+        <span class="bar-3"></span>
+      </label>
+
+    </div>
+  </header>
+  
+  <p>眼中作業零售，責任編輯版本什麼時候注重權利平台原則整體，得分寵物黑暗專利委員會故障現在樣子，農業意思一口一般暴力網頁課程辦公生成指導偉大售價，日期這次兄弟依法電話適用於版權所有研究生作業根本這就是，允許總結聲明尤其是操作系統配套必須，擁有拍攝表演教授安徽。 </p>
+
+</body>
+</html>
